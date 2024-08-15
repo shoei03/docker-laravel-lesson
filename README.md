@@ -23,3 +23,7 @@ php artisan key:generate
 ```
 
 `http://localhost:8080/` にアクセスするとLaravelのトップ画面が見れます！
+
+※Windowsユーザーはファイルの書き込み権限の問題でエラー画面が出るかもしれません。
+
+適宜　`chown -R {user名}:{group名}` や `chmod -R 777` などのコマンドを使用して権限を変更してください。
